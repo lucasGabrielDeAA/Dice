@@ -38,9 +38,12 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Roll">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="rollButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q0U-Wa-lQd"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="aLQ-WP-kRB">
-                                <rect key="frame" x="239.86579593620536" y="347.0000000000216" width="120.00000000001864" height="119.99999999999989"/>
+                                <rect key="frame" x="227" y="347" width="120.00000000001864" height="119.99999999999989"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>

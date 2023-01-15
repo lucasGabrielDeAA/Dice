@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var diceImageViewOne: UIImageView!
-    @IBOutlet weak var diceImaveViewTwo: UIImageView!
+    @IBOutlet weak var diceImageViewTwo: UIImageView!
     
     let diceImages: [UIImage] = [UIImage(imageLiteralResourceName: "DiceOne"), UIImage(imageLiteralResourceName: "DiceTwo"), UIImage(imageLiteralResourceName: "DiceThree"), UIImage(imageLiteralResourceName: "DiceFour"), UIImage(imageLiteralResourceName: "DiceFive"), UIImage(imageLiteralResourceName: "DiceSix")]
     
@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         // Random value generated using Int.random within array boundaries
         diceImageViewOne.image = diceImages[Int.random(in: 0...diceImages.count - 1)]
         // Random value generated using randomElement's method
-        diceImaveViewTwo.image = diceImages.randomElement()
+        diceImageViewTwo.image = diceImages.randomElement()
     }
     
     override func viewDidLoad() {
